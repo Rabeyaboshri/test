@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/* this is header section styles */
 .menu-container{
     background-color: rgb(57, 54, 54);
     padding: 20px;
@@ -26,4 +27,49 @@
 }
 .menu:hover{
     color: cadetblue;
+}
+/* this is main section styles */
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    /* border: 2px gray solid; */
+    background-image: url("./images/background.png"),linear-gradient(45deg,#090909,#242323);
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.about{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+.about-img{
+    width: 280px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    margin-bottom: 5px;
 }
