@@ -110,3 +110,17 @@ p{
     padding: 10px;
 
 }
+/* this is footer section */
+.extra-img{
+    width: 120px;
+    
+}
+.How-to-reach-us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    color: white;
+    height: 200px;
+    background-color:black;
+}
