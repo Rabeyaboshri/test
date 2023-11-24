@@ -124,3 +124,9 @@ p{
     height: 200px;
     background-color:black;
 }
+.list{
+    list-style: none;
+}
+.heading{
+    margin-bottom: 10px;
+}
